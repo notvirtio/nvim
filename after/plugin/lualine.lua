@@ -1,9 +1,9 @@
-local function arch()
-    return " "
+local function icon()
+    return " "
 end
 
 require("lualine").setup {
     sections = {
-        lualine_a = { arch, "mode" }
+        lualine_a = { icon, "mode" }
     }
 }
