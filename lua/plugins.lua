@@ -5,7 +5,6 @@ return require("packer").startup(function(use)
 
     use "neovim/nvim-lspconfig"
     use "mfussenegger/nvim-dap"
-    use "jubnzv/virtual-types.nvim"
     use "lewis6991/impatient.nvim"
     use "sitiom/nvim-numbertoggle"
     use "nvim-treesitter/nvim-treesitter"

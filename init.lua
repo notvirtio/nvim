@@ -14,6 +14,15 @@ vim.opt.backup = false
 
 vim.g.mapleader = " "
 
+if vim.g.neovide then
+    vim.opt.guifont = { "Iosevka Nerd Font:h20" }
+    vim.g.neovide_hide_mouse_when_typing = true
+
+    vim.g.neovide_cursor_animation_length = 0.1
+    vim.g.neovide_cursor_vfx_mode = "pixiedust"
+    vim.g.neovide_cursor_vfx_particle_density = 100
+end
+
 vim.cmd("set cb=unnamedplus")
 
 local keys = {
@@ -21,6 +30,7 @@ local keys = {
     ["<C-j>"] = function() vim.cmd("winc j") end,
     ["<C-k>"] = function() vim.cmd("winc k") end,
     ["<C-l>"] = function() vim.cmd("winc l") end,
+    ["<A-Enter>"] = function() vim.g.neovide_fullscreen = not vim.g.neovide_fullscreen end,
 }
 
 for k, v in pairs(keys) do
