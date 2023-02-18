@@ -13,6 +13,7 @@ return require("packer").startup(function(use)
     use "kdheepak/lazygit.nvim"
     use "m4xshen/autoclose.nvim"
     use "nvim-lualine/lualine.nvim"
+    use 'andweeb/presence.nvim'
     use "arcticicestudio/nord-vim"
 
     use {
