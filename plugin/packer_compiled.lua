@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/virtio/.local/share/nvim/site/pack/packer/start/autoclose.nvim",
     url = "https://github.com/m4xshen/autoclose.nvim"
   },
+  ["barbar.nvim"] = {
+    loaded = true,
+    path = "/home/virtio/.local/share/nvim/site/pack/packer/start/barbar.nvim",
+    url = "https://github.com/romgrk/barbar.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/virtio/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -209,10 +214,15 @@ _G.packer_plugins = {
     path = "/home/virtio/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  ["virtual-types.nvim"] = {
+  ["toggleterm.nvim"] = {
     loaded = true,
-    path = "/home/virtio/.local/share/nvim/site/pack/packer/start/virtual-types.nvim",
-    url = "https://github.com/jubnzv/virtual-types.nvim"
+    path = "/home/virtio/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
+    url = "https://github.com/akinsho/toggleterm.nvim"
+  },
+  ["winbar.nvim"] = {
+    loaded = true,
+    path = "/home/virtio/.local/share/nvim/site/pack/packer/start/winbar.nvim",
+    url = "https://github.com/fgheng/winbar.nvim"
   }
 }
 

@@ -14,6 +14,13 @@ return require("packer").startup(function(use)
     use "nvim-lualine/lualine.nvim"
     use 'andweeb/presence.nvim'
     use "arcticicestudio/nord-vim"
+    use "akinsho/toggleterm.nvim"
+    use {
+        "romgrk/barbar.nvim",
+        requires = {
+            "nvim-tree/nvim-web-devicons"
+        }
+    }
 
     use {
         "nvim-telescope/telescope.nvim",

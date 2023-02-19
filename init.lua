@@ -30,9 +30,14 @@ local keys = {
     ["<C-j>"] = function() vim.cmd("winc j") end,
     ["<C-k>"] = function() vim.cmd("winc k") end,
     ["<C-l>"] = function() vim.cmd("winc l") end,
+    ["<C-b>"] = function() vim.cmd("vsplit term://cargo run") end,
     ["<A-Enter>"] = function() vim.g.neovide_fullscreen = not vim.g.neovide_fullscreen end,
 }
 
-for k, v in pairs(keys) do
-    vim.keymap.set("n", k, v)
+function setKeys(keys)
+    for k, v in pairs(keys) do
+        vim.keymap.set("n", k, v)
+    end
 end
+
+setKeys(keys)
