@@ -15,6 +15,8 @@ return require("packer").startup(function(use)
     use 'andweeb/presence.nvim'
     use "arcticicestudio/nord-vim"
     use "akinsho/toggleterm.nvim"
+    use "rbong/vim-buffest"
+
     use {
         "romgrk/barbar.nvim",
         requires = {

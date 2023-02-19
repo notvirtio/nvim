@@ -219,10 +219,10 @@ _G.packer_plugins = {
     path = "/home/virtio/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
-  ["winbar.nvim"] = {
+  ["vim-buffest"] = {
     loaded = true,
-    path = "/home/virtio/.local/share/nvim/site/pack/packer/start/winbar.nvim",
-    url = "https://github.com/fgheng/winbar.nvim"
+    path = "/home/virtio/.local/share/nvim/site/pack/packer/start/vim-buffest",
+    url = "https://github.com/rbong/vim-buffest"
   }
 }
 
