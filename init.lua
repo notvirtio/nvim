@@ -26,11 +26,12 @@ end
 vim.cmd("set cb=unnamedplus")
 
 local keys = {
-    ["<C-h>"] = function() vim.cmd("winc h") end,
-    ["<C-j>"] = function() vim.cmd("winc j") end,
-    ["<C-k>"] = function() vim.cmd("winc k") end,
-    ["<C-l>"] = function() vim.cmd("winc l") end,
-    ["<C-b>"] = function() vim.cmd("vsplit term://cargo run") end,
+    ["<C-h>"] = ":winc h<CR>",
+    ["<C-j>"] = ":winc j<CR>",
+    ["<C-k>"] = ":winc k<CR>",
+    ["<C-l>"] = ":winc l<CR>",
+    ["<A-c>"] = ":BufferClose<CR>",
+    ["<C-b>"] = ":vsplit term://cargo run<CR>",
     ["<A-Enter>"] = function() vim.g.neovide_fullscreen = not vim.g.neovide_fullscreen end,
 }
 
