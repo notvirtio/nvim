@@ -16,6 +16,7 @@ return require("packer").startup(function(use)
     use "arcticicestudio/nord-vim"
     use "akinsho/toggleterm.nvim"
     use "rbong/vim-buffest"
+    use "JuliaEditorSupport/julia-vim"
 
     use {
         "romgrk/barbar.nvim",

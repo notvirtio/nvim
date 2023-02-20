@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/home/virtio/.local/share/nvim/site/pack/packer/start/impatient.nvim",
     url = "https://github.com/lewis6991/impatient.nvim"
   },
+  ["julia-vim"] = {
+    loaded = true,
+    path = "/home/virtio/.local/share/nvim/site/pack/packer/start/julia-vim",
+    url = "https://github.com/JuliaEditorSupport/julia-vim"
+  },
   ["lazygit.nvim"] = {
     loaded = true,
     path = "/home/virtio/.local/share/nvim/site/pack/packer/start/lazygit.nvim",

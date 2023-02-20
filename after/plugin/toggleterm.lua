@@ -3,5 +3,5 @@ require("toggleterm").setup{
         return vim.o.columns * .4
     end,
     open_mapping = "<C-\\>",
-    direction = "vertical"
+    direction = "float"
 }
