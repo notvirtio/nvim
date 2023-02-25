@@ -31,6 +31,7 @@ local keys = {
     ["<C-k>"] = ":winc k<CR>",
     ["<C-l>"] = ":winc l<CR>",
     ["<A-c>"] = ":BufferClose<CR>",
+    ["<C-b>"] = ":TermExec dir=% cmd=make<CR>",
     ["<A-Enter>"] = function() vim.g.neovide_fullscreen = not vim.g.neovide_fullscreen end,
 }
 
