@@ -15,7 +15,7 @@ vim.opt.backup = false
 vim.g.mapleader = " "
 
 if vim.g.neovide then
-    vim.opt.guifont = { "Iosevka Nerd Font:h20" }
+    vim.opt.guifont = { "Mononoki Nerd Font:h20" }
     vim.g.neovide_hide_mouse_when_typing = true
 
     vim.g.neovide_cursor_animation_length = 0.1
