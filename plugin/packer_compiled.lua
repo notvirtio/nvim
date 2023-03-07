@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/virtio/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["Yuescript-vim"] = {
+    loaded = true,
+    path = "/home/virtio/.local/share/nvim/site/pack/packer/start/Yuescript-vim",
+    url = "https://github.com/pigpigyyy/Yuescript-vim"
+  },
   ["autoclose.nvim"] = {
     loaded = true,
     path = "/home/virtio/.local/share/nvim/site/pack/packer/start/autoclose.nvim",
@@ -88,6 +93,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/virtio/.local/share/nvim/site/pack/packer/start/barbar.nvim",
     url = "https://github.com/romgrk/barbar.nvim"
+  },
+  catppuccin = {
+    loaded = true,
+    path = "/home/virtio/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
@@ -158,11 +168,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/virtio/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
-  },
-  ["nord-vim"] = {
-    loaded = true,
-    path = "/home/virtio/.local/share/nvim/site/pack/packer/start/nord-vim",
-    url = "https://github.com/arcticicestudio/nord-vim"
   },
   ["nvim-cmp"] = {
     loaded = true,
