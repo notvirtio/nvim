@@ -1,5 +1,7 @@
 require("plugins")
 
+require("impatient")
+
 vim.opt.nu = true
 
 vim.opt.tabstop = 4
