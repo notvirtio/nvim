@@ -19,6 +19,7 @@ return require("packer").startup(function(use)
     use "JuliaEditorSupport/julia-vim"
     -- may god forgive me
     use "pigpigyyy/Yuescript-vim"
+    use "christoomey/vim-tmux-navigator"
 
     use {
         "romgrk/barbar.nvim",
